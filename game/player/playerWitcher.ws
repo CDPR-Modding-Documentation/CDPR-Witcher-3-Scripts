@@ -414,12 +414,6 @@ statemachine class W3PlayerWitcher extends CR4Player
 		ManageSetBonusesSoundbanks(EIST_Gryphon);
 		ManageSetBonusesSoundbanks(EIST_Bear);
 		
-		
-		if( ((W3PlayerAbilityManager)abilityManager).GetToxicityOffset() > ((W3PlayerAbilityManager)abilityManager).GetStatMax(BCS_Toxicity)) 
-		{
-			((W3PlayerAbilityManager)abilityManager).SetToxicityOffset(0.f);
-		}
-		
 
 		m_quenHitFxTTL = 0;
 		m_TriggerEffectDisablePending = false;
